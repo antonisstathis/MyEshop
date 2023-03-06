@@ -19,7 +19,6 @@ public class Model {
 				System.out.println("Email found: correct password = " + data[2] + " password given = " + passwordForm);
 			}
 			else {
-				
 				return "Email wasn't found.";
 			}
 			database.closeConnection();
@@ -30,11 +29,9 @@ public class Model {
 		
 		if(data != null && passwordForm != null) {
 			if(data[2].equals(passwordForm)) {
-				
 				return "login successful";
 			}
-			else {
-				
+			else {	
 				return "Wrong password.";
 			}
 		}
