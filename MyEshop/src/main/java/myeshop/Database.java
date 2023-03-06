@@ -15,13 +15,13 @@ public class Database {
 	
 	public void connectToDatabase() {
 
-        try {
-                Class.forName("com.mysql.cj.jdbc.Driver");
-                conn = DriverManager.getConnection(url,username,password);
-        }
-        catch (Exception e) {
-                System.out.println(e.getMessage());
-        }
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			conn = DriverManager.getConnection(url,username,password);
+		}
+		catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
 
 	}
 	
