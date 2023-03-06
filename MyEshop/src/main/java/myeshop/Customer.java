@@ -14,7 +14,7 @@ public class Customer {
 	
 	public Customer(String name, String surname, String tel, String city, String address, String zipcode,
 			String email, String password) {
-		super();
+		
 		this.name = name;
 		this.surname = surname;
 		this.tel = tel;
